@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: url('mainc.png'), pointer;
+}
+.cursor{
+  width: 100px;
+}
+body{
+  cursor: url('maincactiv.png'), pointer;
+}
+header{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15%;
+  background: #F1FAEE;
+}
+li{
+  display: inline-block;
+  padding: 0 15px;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+a{
+  color: black;
+}
+li:hover{
+  background: #DAE5D7;
+  transition: 0.3s ease;
+}
+.logo{
+  font-family: SF UI Display;
+  font-weight: bold;
+  font-size: 30px;
+  color: #E63946;
+}
+button{
+  font-family: Roboto;
+  border:none;
+  padding: 7px;
+  width: 75px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: #A8DADC;
+}
+button:hover{
+  background: #79C1C4;
+  transition: 0.3s ease;
+
+}
+.heroimg{
+  background-image: linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(0,0,0, 0.5)),
+  url("alexander-redl-d3bYmnZ0ank-unsplash.jpg");
+  height: 500px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  align-items: center;
+  justify-content: center;
+}
+.herotext{
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+}
+.herobtn{
+  font-size: 30px;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 10px;
+  background:  rgba(0,0,0,0.4);
+  cursor: url('maincactiv.png'), pointer;
+
+}
+.herobtn:hover{
+  background:  rgba(0,0,0,0.8);
+  transition: 0.4s ease;
+
+}
+.span1{
+  background: url(discoverwhite.png) no-repeat center;
+  padding: 10px;
+  margin-left:10px;
+}
+.access{
+  text-align: center;
+  margin: 20px 60px;
+  padding: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.access:hover{
+  transition: 0.2s ease;
+  background: black;
+  color: white;
+}
+.comimg{
+  background-image: linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(0,0,0, 0.5)),
+  url("community.jpg");
+  display: flex;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  align-items: center;
+  justify-content: space-between;
+}
+.box{
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  justify-content:space-between;
+  margin: auto;
+}
+.quote2{
+  font-family: Roboto;
+  font-size: 30px;
+  margin: 40px;
+  text-align: center;
+  color: white;
+}
+input{
+  padding: 10px 28.4%;
+  display: flex;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  margin: auto;
+}
+.input{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.healimg{
+  background-image: linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(0,0,0, 0.5)),
+  url("healthy.jpg");
+  height: 500px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote3{
+  margin: 20px 60px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.health{
+  font-family: Roboto;
+  font-size: 30px;
+  margin: 90px;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+}
+.healthbtn{
+  font-family: Roboto;
+  font-size: 30px;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 10px;
+  background:  rgba(0,0,0,0.4);
+}
+.healthbtn:hover{
+  background:  rgba(0,0,0,0.8);
+  transition: 0.4s ease;
+}
+.copyr{
+  width: 100%;
+  height: 100px;
+  background: #282828;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.right{
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+  background: #282828;
+
+}
+.rightname{
+  background: #282828;
+  color: #fcf7f3;
+  font-family: Roboto;
+  margin: 50px 0;
+}
